@@ -1,8 +1,27 @@
 aid: xchange-formerly-exchange-applications-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xchange-formerly-exchange-applications-inc.png
 name: xchange (Formerly Exchange Applications Inc.)
-description: xchange (Formerly Exchange Applications Inc.) is a company surfaced as a portfolio company
-  of insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is
-  a lead awaiting the enrichment pipeline.
+description: 'Xchange Inc., formerly Exchange Applications Inc., was a Boston-based (89 South
+  Street, Boston, MA) customer relationship marketing software company that helped enterprises
+  earn a greater share of their customers'' business through relevant, personalized customer
+  communications, selling campaign-management and customer-analytics software. A Delaware
+  corporation backed by Insight Partners, it went public in 1998 (S-1 filed 1998-07-22, SEC CIK
+  0001065857, SIC 7373 Computer Integrated Systems Design). The company went dark after its
+  final 10-Q on 2002-11-19, and the SEC revoked its Exchange Act registration on 2011-01-07.
+  Both historical domains are now parked: xchange.com carries no A record and
+  exchangeapplications.com is a domain-for-sale lander. The company is defunct with no website,
+  developer surface, or APIs; this profile is retained as a historical portfolio-lead record.'
 url: https://raw.githubusercontent.com/api-evangelist/xchange-formerly-exchange-applications-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,37 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-sec-cik: '0001065857'
+x-sec-registration: revoked 2011-01-07
+x-last-sec-filing: 10-Q 2002-11-19
+x-website-status: unresolved
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Enterprise
+- Marketing
+- CRM
+- Campaign Management
+- Customer Analytics
+- Software
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: http://www.xchange.com/
+  x-note: historical domain; no longer resolves (no A record, parked nameservers)
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  note: defunct company verified via SEC EDGAR (registration revoked 2011) + DNS probes (both
+    historical domains parked); no API surface, identity pass only
